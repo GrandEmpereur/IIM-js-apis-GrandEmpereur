@@ -1,0 +1,270 @@
+.Center{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+    margin: 0 auto;
+    margin-left: 0;
+    width: 70vw;
+    height: 100vh;
+    gap: 30px;
+
+    .initial{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        form{
+            .input {
+                width: 475px;
+                height: 40px;
+                padding: 0 1.5rem;
+                position: relative;
+                background-color: #fff;
+                border-radius: 5rem;
+                display: flex;
+                align-items: center;
+                column-gap: .75rem;
+                
+
+                .icon__search{
+                    color: #B5A3A9;
+                }
+                
+                .input__search {
+                    background: transparent;
+                    border: none;
+                    outline: none;
+                    font-size: 14px;
+                    z-index: 1;
+                    width: 100%;
+                    color: #B5A3A9;
+
+                    &::placeholder {
+                        color: #B5A3A9;
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    .content{
+        .search-result{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            
+            .recipe{
+                background-color: #fff;
+                width: 290px;
+                height: 220px;
+                padding: 2rem 2rem;
+                border-radius: 1rem;
+
+                .title{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .title__left{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 10px;
+                        
+                        
+
+                        h3{
+                            font-size: 0.7rem;
+                            font-weight: bold;
+                            color: #FB9400;
+                            width: 130px;
+                            overflow: hidden;
+                            word-break: break-all;
+                        }
+
+                    }
+                    
+                    
+
+                    img{
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .recipe-info{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                padding: 1rem 0;
+                gap: 20px;
+
+                h3{
+                    font-size: 0.7rem;
+                    font-weight: bold;
+                    width: 300px;
+                    overflow: hidden;
+                    word-break: break-all;
+                    color: #FB9400;
+                }
+
+                .descriptions{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+
+                span{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+
+                    .btn-readMore{
+                        background-color: #FB9400;
+                        color: #fff;
+                        border-radius: 5rem;
+                        border: none;
+                        outline: none;
+                        padding: 0.5rem 1.5rem;
+                        font-size: 0.7rem;
+                        font-weight: bold;
+                        cursor: pointer;
+
+                        &:hover{
+                            background-color: transparent;
+                            border: 1px solid #FB9400;
+                            color: #FB9400;
+                            transition: all 0.4s;
+                        }
+                    }
+                }
+            }
+        }
+
+        .randomCards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            .recipe{
+                background-color: #fff;
+                width: 290px;
+                height: 300px;
+                padding: 2rem 2rem;
+                border-radius: 1rem;
+
+                .title{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+
+                    .title__left{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 10px;
+                        
+                        
+
+                        h3{
+                            font-size: 0.7rem;
+                            font-weight: bold;
+                            color: #FB9400;
+                            width: 130px;
+                            overflow: hidden;
+                            word-break: break-all;
+                        }
+
+                    }
+                    
+                    
+
+                    img{
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 50%;
+                        margin-right: 10px;
+                    }
+                }
+            }
+
+            .recipe-info{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                padding: 1rem 0;
+                gap: 20px;
+
+                h3{
+                    font-size: 0.7rem;
+                    font-weight: bold;
+                    width: 300px;
+                    overflow: hidden;
+                    word-break: break-all;
+                    color: #FB9400;
+                }
+
+                .descriptions{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+
+                span{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+
+                    .btn-readMore{
+                        background-color: #FB9400;
+                        color: #fff;
+                        border-radius: 5rem;
+                        border: none;
+                        outline: none;
+                        padding: 0.5rem 1.5rem;
+                        font-size: 0.7rem;
+                        font-weight: bold;
+                        cursor: pointer;
+
+                        &:hover{
+                            background-color: transparent;
+                            border: 1px solid #FB9400;
+                            color: #FB9400;
+                            transition: all 0.4s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .form-menu{
+        display: none;
+    }
+    
+    .form-meal{
+        display: none;
+    }
+    
+    .form-product{
+        display: none;
+    }
+    
+    .form-all{
+        display: none;
+    }
+
+}

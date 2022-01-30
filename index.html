@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/86a3971549.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>Happy food</h2>
+        </div>
+
+        <div class="nav__filter">
+            <button value="form-recepie" class="filter_btn  active">Recepie</button>
+            <button value="form-menu" class="filter_btn ">Menu</button>
+            <button value="form-meal" class="filter_btn search__mealPlanning">Meal planing</button>
+            <button value="form-product" class="filter_btn ">Product</button>
+            <button value="form-all" class="filter_btn ">Search Anithing</button>
+        </div>
+    </header>
+    
+    <section class="Center" >
+        <div class="container initial">
+            <form class=" from form-recepie">
+                <div class="input">
+                    <i class='fas fa-search icon__search'></i>
+                    <input type="text" placeholder="Search Your Recipe..." class="input__search">
+                </div>
+                <div class="input-filter">
+                </div>
+            </form>
+
+            <form class="from form-menu" >
+                <div class="input">
+                    <i class='fas fa-search icon__search'></i>
+                    <input type="text" placeholder="Search Your Menu..." class="input__search">
+                </div>
+                <div class="input-filter">
+                </div>
+            </form>
+
+            <form class="from form-product" >
+                <div class="input">
+                    <i class='fas fa-search icon__search'></i>
+                    <input type="text" placeholder="Search Your Product..." class="input__search">
+                </div>
+                <div class="input-filter">
+                </div>
+            </form>
+
+            <form class="from form-all" >
+                <div class="input">
+                    <i class='fas fa-search icon__search'></i>
+                    <input type="text" placeholder="Search Your All..." class="input__search">
+                </div>
+                <div class="input-filter">
+                </div>
+            </form>
+        </div>
+
+        <div class="content">
+            <div class="randomCards"></div>
+            <div class="search-result"></div>
+            <div class="search__menu"></div>
+            <div class="search__meal--Planning"></div>
+            <div class="search__Product"></div>
+        </div>
+        
+    </section>
+
+    <section class="info__content">
+        <div class="readmoreCards"></div>
+    </section>
+    
+
+    <script src="js/app.js"></script>
+    <script src="js/app-music.js"></script>
+</body>
+</html>

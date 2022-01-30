@@ -1,0 +1,5 @@
+@mixin bg-center($utl) {
+    background: url($utl);
+    background-size: cover;
+    background-position: center;
+}

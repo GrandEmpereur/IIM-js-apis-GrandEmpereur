@@ -1,0 +1,32 @@
+@import "scss/abstract/variables",
+        "scss/abstract/mixins",
+        
+        "scss/components/btn",
+        "scss/layout/header",
+        "scss/layout/Center",
+        "scss/layout/menu",
+        "scss/layout/mealplan",
+        "scss/layout/right",
+
+        "scss/pages/home";
+// reset styles
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    li{
+        list-style: none;
+    }
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: #E5E5E5
+}
